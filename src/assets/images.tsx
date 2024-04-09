@@ -7,6 +7,8 @@ import picture6 from "/image6.jpg";
 import picture7 from "/image7.jpg";
 import picture8 from "/image8.jpg";
 
+import wallpaper from "/bible-wallpaper.jpg";
+
 const images = [
   picture1,
   picture2,
@@ -18,4 +20,6 @@ const images = [
   picture8,
 ];
 
-export default images;
+const imageWallpaper = wallpaper;
+
+export { images, imageWallpaper };

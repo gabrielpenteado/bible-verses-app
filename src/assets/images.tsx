@@ -18,4 +18,4 @@ const images = [
   picture8,
 ];
 
-export default images;
+export { images };

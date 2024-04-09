@@ -4,7 +4,7 @@ import { Skeleton } from "./Skeleton";
 import { exportComponentAsJPEG } from "react-component-export-image";
 import { useRef } from "react";
 
-import downloadIcon from "./download.svg";
+import downloadIcon from "../assets/download.svg";
 
 export function VerseCard({ imageURL }: { imageURL: string }) {
   const { data, isFetching } = useVerse();

@@ -7,25 +7,16 @@ import {
 } from "@/components/ui/carousel";
 
 import images from "./assets/images";
+import { VerseCard } from "./components/VerseCard";
 
 function App() {
-  const slidesArray: string[] = [];
-
-  const slidesGenerator = (n: number) => {
-    for (let i = 0; i < n; i++) {
-      slidesArray.push(images[Math.floor(Math.random() * (images.length - 1))]);
-    }
-  };
-
-  slidesGenerator(33);
-
   return (
-    <div className="w-[400px] h-[100vh] m-auto flex items-center align-middle">
+    <div className="w-[400px] h-[100vh] m-auto flex justify-center items-center align-middle">
       <Carousel>
-        <CarouselContent className="w-[400px]">
-          {slidesArray.map((image) => (
-            <CarouselItem>
-              <img src={image} alt="image" />
+        <CarouselContent className="md:w-[500px] md:h-[500px] relative w-[300px] h-[300px]">
+          {images.map((image, index) => (
+            <CarouselItem key={index}>
+              <VerseCard imageURL={image} />
             </CarouselItem>
           ))}
         </CarouselContent>

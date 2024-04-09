@@ -20,6 +20,10 @@ const images = [
   picture8,
 ];
 
+<<<<<<< HEAD
 const imageWallpaper = wallpaper;
 
 export { images, imageWallpaper };
+=======
+export { images };
+>>>>>>> dev

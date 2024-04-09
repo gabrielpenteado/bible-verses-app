@@ -11,7 +11,7 @@ import { VerseCard } from "./components/VerseCard";
 
 function App() {
   return (
-    <div className="w-[100vw] bg-[url('bible-wallpaper.jpg')] flex-col justify-center items-center bg-cover">
+    <div className="w-[100vw] bg-[url('./bible-wallpaper.jpg')] flex-col justify-center items-center bg-cover">
       <h1 className="text-center text-white pt-20 text-3xl md:text-5xl font-semi-bold underline">
         Versiculo do dia
       </h1>

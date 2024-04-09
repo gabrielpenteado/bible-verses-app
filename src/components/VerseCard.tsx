@@ -2,7 +2,7 @@ import { useVerse } from "@/hooks/useVerse";
 import { Skeleton } from "./Skeleton";
 
 import { exportComponentAsJPEG } from "react-component-export-image";
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 import downloadIcon from "./download.svg";
 

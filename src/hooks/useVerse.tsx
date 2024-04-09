@@ -1,7 +1,6 @@
 import { api } from "@/lib/axios";
 import { useQuery } from "@tanstack/react-query";
 import { Verse } from "@/interfaces/verseInterface";
-import { AxiosPromise } from "axios";
 
 const fetchData = async () => {
   const response = await api.get<Verse>("verses/nvi/random");

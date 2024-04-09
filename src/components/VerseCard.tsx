@@ -13,7 +13,7 @@ export function VerseCard({ imageURL }: { imageURL: string }) {
   const divRef = useRef(null);
 
   return (
-    <div className="relative left-2 ">
+    <div className="relative left-2">
       <div ref={divRef}>
         <img src={imageURL} alt="image" />
         <div className="absolute top-10 w-full flex justify-center items-center">
@@ -32,7 +32,9 @@ export function VerseCard({ imageURL }: { imageURL: string }) {
       </div>
       <button
         className={` right-2 md:right-2 md:w-16 w-11 bg-black md:top-[410px] top-[235px] absolute rounded-2xl`}
-        onClick={() => exportComponentAsJPEG(divRef, { fileName: "verse.jpg" })}
+        onClick={() =>
+          exportComponentAsJPEG(divRef, { fileName: "versiculo-do-dia.jpg" })
+        }
         title="Download"
       >
         <img src={downloadIcon} alt="download" />

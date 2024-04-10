@@ -29,7 +29,7 @@
 - [License](#-license)
   <br>
 
-## :cru About the project
+## ✝️ About the project
 
 <p align="justify"> 
    An application that shows a Bible verse per day, allowing users to choose a background image and download it.
@@ -50,7 +50,7 @@
     <tbody>
       <tr>
         <td>
-          <a href="https://www.youtube.com/watch?v=XFqpPZEtLVk">
+          <a href="https://www.youtube.com/watch?v=R3j4l_jiSWY">
             <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
           </a>
         </td>  
@@ -65,7 +65,7 @@
 </div>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/gabrielpenteado/watch-store/main/public/watchstore.png"> 
+    <img src="https://raw.githubusercontent.com/gabrielpenteado/bible-verses-app/main/public/bible-verse-app.png"> 
 </p>
 
 <div align="center">
@@ -73,17 +73,8 @@
     <thead>
       <tr>
         <th style="text-align: center">
-          <a href="https://raw.githubusercontent.com/gabrielpenteado/watch-store/main/public/print1.jpg">Screenshot-1</a>
-        </th>
-        <th style="text-align: center">
-          <a href="https://raw.githubusercontent.com/gabrielpenteado/watch-store/main/public/print2.jpg">Screenshot-2</a>
-        </th>
-        <th style="text-align: center">
-          <a href="https://raw.githubusercontent.com/gabrielpenteado/watch-store/main/public/print3.jpg">Screenshot-3</a>
-        </th>
-        <th style="text-align: center">
-          <a href="https://raw.githubusercontent.com/gabrielpenteado/watch-store/main/public/print4.jpg">Screenshot-4</a>
-        </th>   
+          <a href="https://raw.githubusercontent.com/gabrielpenteado/bible-verses-app/main/public/screenshot.jpg">Screenshot</a>
+        </th> 
       </tr>
     </thead>
   </table>
@@ -98,7 +89,7 @@
 ![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![shadcn-ui](https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff&style=for-the-badge)
 
-## 🚀 Getting started
+## ⛪ Getting started
 
 To start using <strong>Watch Store</strong> follow the instructions below.
 

@@ -3,15 +3,19 @@
 </h1>
 
 <h2 align="center">
-    An application that shows a Bible verse per day, allowing users to choose a background image and download it
+    An application that shows a new Bible verse every day.
 </h2>
+
+<h3 align="center">
+    The language is Portuguese.
+</h3>
 
 <div align="center">
   <img src="https://img.shields.io/github/license/gabrielpenteado/bible-verses-app?color=informational" alt="license"/>
 
   <img src="https://img.shields.io/static/v1?label=npm&message=v10.5.1&color=informational&style=flat-square" alt="npm version">
 
-  <img src="https://img.shields.io/website?down_color=red&down_message=offline&style=flat-square&up_color=008000&up_message=online&url=https%3A%2F%2Fwatch-store-project.vercel.app" alt="website status">
+  <img src="https://img.shields.io/website?down_color=red&down_message=offline&style=flat-square&up_color=008000&up_message=online&url=https%3A%2F%2Fversiculo-do-dia.netlify.app" alt="website status">
 </div>
 
 ## 📑 Contents
@@ -25,12 +29,10 @@
 - [License](#-license)
   <br>
 
-## ⌚ About the project
+## :cru About the project
 
 <p align="justify"> 
-   A modern watch store website created with <strong>React</strong>, <strong>Redux</strong> and
-   <strong>TailwindCSS</strong>.
-   The user can add products to cart, increase or decrease the quantity; each purchase action has a notification created with <em>react-toastify<em>. 
+   An application that shows a Bible verse per day, allowing users to choose a background image and download it.
 </p>
 
 <div align="center">
@@ -53,8 +55,8 @@
           </a>
         </td>  
         <td>
-          <a href="https://watch-store-project.vercel.app">
-            <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+          <a href="https://versiculo-do-dia.netlify.app">
+            <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
           </a>
         </td>  
       </tr>
@@ -92,9 +94,9 @@
 ![vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![react](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
 ![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![react-query](https://img.shields.io/badge/React%20Query-FF4154?logo=reactquery&logoColor=fff&style=for-the-badge)
 ![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![shadcn-ui](https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff&style=for-the-badge)
 
 ## 🚀 Getting started
 
@@ -102,14 +104,13 @@ To start using <strong>Watch Store</strong> follow the instructions below.
 
 ### Requirements
 
-- yarn (^1.22.19)
+- npm (^10.5.1)
 - react(^18.2.0)
 - [vite](https://vitejs.dev/guide/)
-- [redux](https://redux.js.org/introduction/getting-started)
-- [redux-toolkit](https://redux-toolkit.js.org/introduction/getting-started)
-- [react-router-dom](https://reactrouter.com/en/main)
-- [react-toastify](https://fkhadra.github.io/react-toastify/introduction)
-- [phosphor-icons](https://phosphoricons.com)
+- [typescript](https://www.typescriptlang.org/)
+- [tailwindcss](https://tailwindcss.com/docs/installation)
+- [tanstack/react-query](https://tanstack.com/query/latest/docs/framework/react/overview)
+- [shadcn/ui](https://ui.shadcn.com/)
 
 ### Browsers Support
 
@@ -121,15 +122,15 @@ To start using <strong>Watch Store</strong> follow the instructions below.
 ### Installation
 
 1. Clone the repository<br>
-   `git clone https://github.com/gabrielpenteado/watch-store`
+   `git clone https://github.com/gabrielpenteado/bible-verses-app`
 
 2. Access the project folder in the terminal
 
 3. Install all packages dependencies<br>
-   `yarn install`
+   `npm install`
 
 4. Start using<br>
-   `yarn dev`
+   `npm run dev`
    <br>
 
 ## 🤝 Contributions
@@ -139,7 +140,7 @@ The foundation of the open source community are the contributions, them inspire 
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/gabrielpenteado/watch-store/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/gabrielpenteado/bible-verses-app/blob/main/LICENSE.md) file for details.
 <br>
 <br>
 

@@ -11,9 +11,9 @@ import { VerseCard } from "./components/VerseCard";
 
 function App() {
   return (
-    <div className="w-[100vw] bg-[url('./assets/bible-wallpaper.jpg')] flex-col justify-center items-center bg-cover">
-      <h1 className="text-center text-white pt-20 text-3xl md:text-5xl font-semi-bold underline">
-        Versiculo do dia
+    <div className="w-full max-h-fit bg-h bg-[url('./assets/bible-wallpaper.jpg')] flex-col items-center bg-cover">
+      <h1 className="text-center text-white pt-20 text-3xl md:text-5xl font-semi-bold underline underline-offset-8">
+        Versículo do dia
       </h1>
       <div className="w-[400px] h-[100vh] m-auto flex justify-center items-center align-middle pb-64">
         <Carousel>

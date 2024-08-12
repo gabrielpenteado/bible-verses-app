@@ -11,11 +11,12 @@ import { VerseCard } from "./components/VerseCard";
 
 function App() {
   return (
-    <div className="w-full max-h-fit bg-h bg-[url('./assets/bible-wallpaper.jpg')] flex-col items-center bg-cover">
-      <h1 className="text-center text-white pt-20 2xl:pt-20 text-3xl md:text-5xl font-semi-bold underline underline-offset-8">
-        Versículo do dia
-      </h1>
-      <div className="w-[400px] h-[100vh] m-auto flex justify-center  items-center align-middle pb-40 md:pb-20 2xl:pb-64">
+    <div className="w-full h-[100vh] justify-center bg-[url('./assets/bible-wallpaper.jpg')] flex-col items-center bg-cover">
+      <img
+        src="../public/logo.png"
+        className="w-[300px] md:w-[500px] pt-4 pb-6 m-auto"
+      />
+      <div className="border-[6px] border-double w-fit m-auto flex justify-center items-center align-middle">
         <Carousel>
           <CarouselContent className="md:w-[500px] md:h-[500px] relative w-[300px] h-[300px]">
             {images.map((image, index) => (

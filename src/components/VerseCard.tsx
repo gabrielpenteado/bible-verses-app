@@ -31,7 +31,7 @@ export function VerseCard({ imageURL }: { imageURL: string }) {
         </div>
       </div>
       <button
-        className={` right-2 md:right-2 md:w-16 w-11 bg-yellow-600 md:top-[425px] top-[250px] absolute rounded-xl`}
+        className={` right-2 md:right-2 md:w-16 w-11 bg-yellow-600 2xl:top-[425px] md:top-[330px] top-[250px] absolute rounded-xl`}
         onClick={() =>
           exportComponentAsJPEG(divRef, { fileName: "versiculo-do-dia.jpg" })
         }

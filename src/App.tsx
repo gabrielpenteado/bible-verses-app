@@ -13,10 +13,13 @@ import logo from "./assets/logo.png";
 function App() {
   return (
     <div className="w-full h-[100vh] justify-center bg-[url('./assets/bible-wallpaper.jpg')] flex-col items-center bg-cover">
-      <img src={logo} className="w-[300px] md:w-[500px] pt-4 pb-6 m-auto" />
+      <img
+        src={logo}
+        className="w-[300px] md:w-[400px] 2xl:w-[500px] pt-4 pb-6 m-auto"
+      />
       <div className="border-[6px] border-double w-fit m-auto flex justify-center items-center align-middle">
         <Carousel>
-          <CarouselContent className="md:w-[500px] md:h-[500px] relative w-[300px] h-[300px]">
+          <CarouselContent className="2xl:w-[500px] 2xl:h-[500px] md:w-[400px] md:h-[400px] relative w-[300px] h-[300px]">
             {images.map((image, index) => (
               <CarouselItem key={index}>
                 <VerseCard imageURL={image} />

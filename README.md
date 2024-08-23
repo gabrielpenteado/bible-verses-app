@@ -91,7 +91,7 @@
 
 ## ⛪ Getting started
 
-To start using <strong>Watch Store</strong> follow the instructions below.
+To start using <strong>Bible Verses App</strong> follow the instructions below.
 
 ### Requirements
 

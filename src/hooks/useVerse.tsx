@@ -2,9 +2,9 @@ import { api } from "@/lib/axios";
 import { useQuery } from "@tanstack/react-query";
 import { Verse } from "@/interfaces/verseInterface";
 
-const fetchData = async () => {
-  const response = await api.get<Verse>("verses/nvi/random");
-  return response.data;
+const fetchData = async (): Promise<Verse[]> => {
+  const response = await api.get("?random=verse");
+  return response.data.verses;
 };
 
 export function useVerse() {

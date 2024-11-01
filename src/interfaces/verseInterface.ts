@@ -1,8 +1,7 @@
 export interface Verse {
-  book: {
-    name: string;
-  };
-  chapter: number;
-  number: number;
+  book_id: string;
+  book_name: string;
+  chapter: string;
+  verse: string;
   text: string;
 }
